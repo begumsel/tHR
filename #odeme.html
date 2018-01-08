@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hollywood Reporter</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/hr4.css">
+  <!-- for icons -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/df8c29ae2c.js"></script>
+  <!-- for fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- javascript -->
+  <script src="C:\Users\LENOVO\Documents\thr\index.js"></script>
+</head>
+
+<body>
+
+<nav class="fixed-nav-bar transparent navbar-inverse text-center">
+  <div class="active" id="home" onclick="location.href='.index.html'" style="cursor:pointer">
+    <a href=".index.html"></a>
+  </div>
+  <div id="menu-bottom">
+    <ul>
+      <li><a href="_film.html">Film</a></li>
+      <li><a href="_tv.html">TV</a></li>
+      <li><a href="_is.html">İş</a></li>
+      <li><a href="_teknoloji.html">Teknoloji</a></li>
+      <li><a href="_kultur.html">Kültür</a></li>
+      <li><a href="_politika.html">Politika</a></li>
+      <li><a href="_stil.html">Stil</a></li>
+      <li><a href="#">Video</a></li>
+      <li><a href="_oduller.html">Ödüller</a></li>
+      <li><a href="_ebulten.html">E-Bülten</a></li>
+      <li><a href="_abonelik.html">Abonelik</a></li>
+      <li>
+        <a href="#" class="searchbox">
+          <i class="fa fa-search" aria-hidden="true" onclick="search()"></i>
+          <input type="text" id="search-input" placeholder="...">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<form action="" class="odeme"> 
+        <legend>Hesap Bilgileri</legend> 
+        <!-- isim -->
+        <label for='name'>Ad</label>
+        <input type="text" id='name' name="name" required>
+        <hr>
+          <!-- soyisim -->
+        <label for='lastname' required>Soyad</label>
+          <input type="text" id='lastname' name="name"><hr>
+        <!-- kull. adı -->
+          <label for="userName">Kullanıcı Adı</label>
+        <input type="text" id='userName' name="name"><hr>
+        <!-- şifre -->
+        <label for="userPassword">Şifre</label>
+        <input id="userPassword" type="password"><hr>
+        <!-- doğum tarihi -->
+        <label for="date">Doğum Tarihi</label>
+        <input id="date" type="date"><hr>
+        <!-- adres -->
+        <label for="address">Adres</label>
+        <input type="address" id="address" required>
+        <br>
+        <input type="address" id="address" required><hr>
+        <!-- şehir -->
+        <label for="text">Şehir</label>
+        <input type="text" name="city" required><hr>
+        <!-- posta kodu -->
+        <label for="countryCode">Posta Kodu</label>      
+        <input type="text" name="countryCode" pattern="[A-Za-z]{3}" title="3 Karakterli Ülke Kodu"><hr>
+        <!-- ülke -->
+        <label for="country">Ülke</label>
+        <input type="text" name="country" required><hr>
+        <!-- telefon numarası -->
+        <label for="telNo">Telefon</label>
+        <input id="telNo" type="tel" required><hr>
+        <!-- mail -->
+        <label for="email">E-mail</label>
+        <input type='Email' name='email' required><hr>
+
+     </form>
+
+     <form action="" class="odeme">
+      <legend>Ödeme Bilgileri</legend>
+      <!-- yıllık ya da aylık ödeme -->
+      <div>
+      <input type="radio" id="radioButton" checked>
+      <br>
+      <label for="radio">Yıllık Ödeme</label>
+      </div>
+      <hr>
+      <div> 
+      <input type="radio" id="radioButton">
+      <br> 
+      <label for="radio">Aylık Ödeme</label>
+      </div><hr>
+        
+      <!-- karttaki isim -->
+      <label for="name">Kart üzerindeki Ad</label>
+      <input type="cc-name" name="cc-name"><hr>
+        
+      <!-- kart numarası -->
+      <label for="cc-number">Kredi Kartı Numarası</label>
+      <input type="cc-number" name="cc-number" pattern="[0-9]{13,16}"><hr>
+        
+      <!-- son kullanım tarihi -->
+      <label for="expiration">Son Kullanma Tarihi</label>
+      <input type="cc-exp" name="cc-exp"><hr>
+        
+      <!-- cvv kodu -->
+      <label for="security">Güvenlik (CVV) Kodu:</label>
+      <input type="cc-csc" name="cc-csc"><hr>
+        
+      <!-- otomatik yenileme -->
+      <div>
+      <input type="radio" id="radioButton" required>
+      <p>
+      Otomatik Yenileme
+      <br>      
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor reprehenderit maiores ullam eveniet voluptatibus commodi quae, ipsam aliquam, vero eos quaerat dignissimos libero, sunt cupiditate eaque non veniam! Vero.
+      </p>
+      </div>
+      <hr>
+      <!-- hizmet söz. radio -->
+      <div>
+      <input type="radio" id="radioButton" required>
+      <p>
+      Satış Sözleşmesi 
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, dolorem vitae distinctio, fugit doloremque veniam illo officiis ipsam, natus repudiandae nulla, doloribus ea rem tenetur. Temporibus suscipit, perspiciatis inventore eum.
+      </p>
+      </div>
+     </form>
+
+     
+    <input type="submit" id="next-payment" value="Üye Ol&#10230;"/>
+     
+     
+
+
+
+
+
+<footer> 
+  <a href="#">Künye</a>
+  <span>|</span>
+  <!--a href="mailto:begumtuyen@gmail.com">Mail</a-->
+  <a href="#">Abonelik</a>
+  <span>|</span>
+  <a href="#">Abonelik Hizmetleri</a>
+  <span>|</span>
+  <a href="#">Kullanım Koşulları</a>
+  <span>|</span>  
+  <a href="#">Gizlilik Politikası</a>
+  <span>|</span>
+  <a href="#">İletişim</a>
+  <span>|</span>
+  <a href="#">Kariyer</a>
+
+  <span id="social-media">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube-play"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</a>
+  </span>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,428 @@
+
+
+body{
+	/*overflow-x: hidden;*/
+    font-size: 100%;
+	background: #f5f5f5 !important;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}  
+
+nav .container form footer{
+	float: left;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 0.875em;
+}
+
+/*MENU***************************************************/
+
+.fixed-nav-bar{	
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: #eaeaea solid 0.5em !important;
+	height: auto
+	opacity: 0.95 !important;
+	 -webkit-opacity: 0.95 !important;
+      -moz-opacity: 0.95 !important;
+}
+
+#home{
+	background-color: #FFFFFF;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 100% !important;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-image: url("../style/thr_logo.jpg");
+	background-size: 10%;
+	background-position: center;
+	opacity: 1 !important;
+	 -webkit-opacity: 1 !important;
+      -moz-opacity: 1 !important;	
+}
+
+#menu-bottom{
+    background: #FFFFFF;
+    width:100% !important;
+	position:relative;
+    margin: 0 auto;
+	padding: 0;
+	opacity: 1 !important;
+    -webkit-opacity: 1 !important;
+     -moz-opacity: 1 !important;
+}
+
+#menu-bottom>ul{
+	list-style: none;
+    margin: auto 0; 
+	display:inline-block;
+}
+
+nav a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2em;
+	/*text-decoration: none;*/
+	/*text-align: center;*/
+	display: block;
+	text-decoration: none;
+	padding: 0 10px;
+	color: #000;
+}
+
+
+nav a:hover{
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+nav>div li{	
+	display: inline-block;
+	float:left;
+	margin: auto;
+	padding: auto;
+}
+
+
+/***search button***************/
+
+.searchbox .fa fa-search{
+  visibility: visible; 
+  display: inline-block;
+  margin: 0 auto;
+  float: left;
+  position: absolute;
+  top: 0.3em;
+  z-index: 1;
+}
+
+.searchbox #search-input{
+	float: right;
+    visibility: visible;
+    display: inline-block;
+    margin-left: 0.5em;
+    border: none;
+    /*border-color: #000;*/
+    /*border-radius: 0.2em;*/
+    font-size: 0.9em;
+    height: 1em
+    width: 5em;
+    text-align: left;
+}
+
+/******************/
+
+.container{
+	width: 50%;
+	margin: 8em 5em 0 5em;
+    background-color:  #f5f5f5;
+}
+
+.container img{
+	max-width: 60%;
+	height: auto;
+}
+
+.container h2>a{
+	font-family: 'Alegreya', serif;
+    text-decoration: none;
+	color: #000;
+}
+
+.container h2>a:hover{
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+    text-decoration: none;
+	color: #45c0bf;
+}
+
+.row{
+	text-align: center;
+}
+
+.container .col-{
+	width: 80em;
+	background: #fff; 
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.container .col- span{
+	color: #c4c1b5;
+    font-family: 'Oswald', sans-serif;	
+    font-size:13px;
+	font-weight: lighter;
+}
+
+.container .col->ul{
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+
+/*******kunye***********************/
+
+#about{
+	border: 0.5px #fff solid;
+	padding: 0.5em;
+	width: 80%;
+	height: 50%;
+    margin: 15em auto;
+}
+
+#about-col-{
+	width: 72em;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase; 
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#about-row #about-col->ul>li:first-child{
+	font-weight: bold;
+	color: #ff1100;
+}
+
+/*abonelik hizmetleri*********************/
+
+
+#subscription-services {
+	border: 0.5px #fff solid;
+	padding: 0.5em;
+	width: 80%;
+	height: 50%;
+	margin: 15em auto;
+}
+
+#subscription-services-row{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#subscription-services-col-{
+		width: 60em;
+}
+
+#subscription-services-row li:first-child{
+	font-weight: bold;
+	color: #45c0bf;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col->ul>li>a{
+	color: #000;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col->ul>li>a:hover{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*TERMS OF USE*****************************/
+
+
+#terms-of-use{
+	border: 0.5px #fff solid;
+	padding: 0.5em;
+	width: 80%;
+	height: 50%;
+	margin: 15em auto;
+}
+
+#terms-of-use-row{
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+#terms-of-use-col-{
+	width: 60em;
+}
+
+#terms-of-use-row ul p>ul>li:first-child{
+	font-weight: bold;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col->ul>li{
+	color: #000;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#terms-of-use-col- .decimal{
+	list-style-type: decimal;
+}
+
+
+/*gizlilik********************************/
+
+#privacy{
+	border: 0.5px #fff solid !important;
+	padding: 0.5em;
+	width: 80%;
+	height: 50%;
+	margin: 15em auto !important;
+}
+
+#privacy-row{
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+#privacy-col-{
+	width: 75em;
+}
+
+#privacy ul p>ul>li:first-child{
+	font-weight: bold;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col->ul>li{
+	color: #000;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*iletişim********************************/
+
+
+#contact{
+	margin: 15em auto;
+	width: 40%;
+	height: 50%;
+	vertical-align: middle;
+	border: 0.5px #fff solid;
+	padding: 0.5em;
+	text-transform: uppercase; 
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#contact-row{
+	text-align: center;
+}
+
+#contact-row .col-{
+	width: 35em;
+	height: auto;
+}
+
+#contact-row .col->ul>li:first-child{
+	font-weight: bold;
+	color: #ff1100;
+}
+
+/*career*/
+
+#career{
+	margin: 15em auto;
+	width: 80%;
+	height: 50%;
+	vertical-align: middle;
+	border: 0.5px #fff solid;
+	padding: 0.5em;
+	text-transform: uppercase; 
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#career-row{
+	text-align: center;
+}
+
+#career-row .col-{
+	width: 72em;
+	height: auto;
+}
+
+#career-row .col->ul>li:first-child{
+	font-weight: bold;
+	color: #ff1100;
+}
+
+
+/*FOOTER**********************************/
+
+footer{
+	position: relative;
+	top: 2em;
+	padding: 3em 0 0 0;
+	text-align: center; 
+    background: #f5f5f5;
+    display: block;
+	width: 100%;
+	height: 0;
+	border-top: #000 hidden 2px;
+}
+
+footer>a {
+	display: inline-block;
+	margin: auto 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+	color: #000;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+footer>a:hover{
+	 font-size: 19px;
+    font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+#social-media{
+	display: block;
+	margin: 1em 0 3em 0;
+    background: #f5f5f5;
+
+}
+
+#social-media .fa{
+	color: #000;
+	font-size: 1.5em;
+	padding: 1em;
+	opacity: 0.9em;
+}
+
+#social-media .fa-facebook:hover{
+	color: #3B5998;
+	text-decoration: none;
+}
+
+#social-media .fa-twitter:hover{
+	color: #00aced;
+	text-decoration: none;
+}
+
+#social-media .fa-youtube-play:hover{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#social-media .fa-instagram:hover{
+	color: 	#8a3ab9;
+	text-decoration: none;
+}
+
+/*****************************************/
