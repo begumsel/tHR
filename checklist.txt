@@ -1,0 +1,22 @@
+en çok okunan 5
+  -icon+>menü üzerine gelince arkada         kaybolmuyor------
+
+-abonelik sayfasý + - butona link verme<----(
+- ödeme sayfasý+ -
+-haber bülteni sayfasý + -
+-künye+-
+-abonelik hizmetleri +-
+-kullaným koþullarý+->idleri deðiþtir
+-gizlilik politikasý+ ->idleri deðiþtir
+
+-iletiþim+-
+-kariyer+-
+
+
+<html lang="tr">!!!
+-buton
+-video sayfasý    
+-alt kýsým
+       -video ekleme (youtube'dan*)
+       -yazýlarýn kaybolmasý
+-tüm menüler+footer+yazýtipleri
